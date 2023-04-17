@@ -115,18 +115,19 @@
                     </ul>
 
                     <hr>
-
-                    <li>Review todos</li>
-                    <ul>
-                        <li>Zoodle send update on WL by Saturday EOD</li>
-                        <li>Zoodle ask Kaboodle to send input and strengths before next meeting</li>
-                        <li>ALL should have goals/expectations for project for next week</li>
-                        <li>Poodle upload notes</li>
-                    </ul>
                     <p>Next meeting: <b>Wednesday 4/19/23 at 10am</b></p>
                 </ol>
             </section>
 
+            <details>
+                <summary>TODOS</summary>
+                <ul>
+                    <li>Zoodle send update on WL by Saturday EOD</li>
+                    <li>Zoodle ask Kaboodle to send input and strengths before next meeting</li>
+                    <li>ALL should have goals/expectations for project for next week</li>
+                    <li>Poodle upload notes</li>
+                </ul>
+            </details>
             <p>Meeting recording and audio:</p>
             <audio controls>
                 <source src="meetingaudio.m4a" type="meetingaudio/m4a">
@@ -145,6 +146,43 @@
 
     <footer>
         <p>Fill out this form for free ice cream<br>
+            <form>
+                <fieldset>
+                    <legend>Personal info:</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname">
+                </fieldset>
+                
+                <p> </p>
+                <label for="ice cream">Choose a flavor:</label>
+                <select id="ice cream" name="flavors">
+                    <option value="vanilla">Vanilla</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="Strawberry">Strawberry</option>
+                </select>
+
+                <p> </p>
+                <textarea name="message" rows="10" cols="30">There's lots of cool ice cream places in SD. List some here:
+                </textarea>
+
+                <p> </p>
+                <fieldset>
+                    <legend>Favorite Labadoodle name</legend>
+                    <input list="names">
+                    <datalist id="names">
+                        <option value="Poodle">
+                        <option value="Noodle">
+                        <option value="Doodle">
+                        <option value="Zoodle">
+                        <option value="Woodle">
+                        <option value="Kaboodle">
+                    </datalist>
+                    <input type="submit">
+                </fieldset>
+                
+            </form>
         <a href="mailto:hege@example.com">hege@example.com</a></p>
       </footer>
   </body>
