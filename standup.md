@@ -18,7 +18,7 @@
 
 |name|today's mood|priorities|progress|problems|
 |---|---|---|---|---|
-| faith  | sick :(  | ...  | ... | ... |
+| faith  | ...  | ...  | ... | ... |
 | 2  |   |   |   |   |
 | 3  |   |   |   |   |
 
@@ -42,6 +42,6 @@
 
 |name|today's mood|priorities|progress|problems|
 |---|---|---|---|---|
-| faith  | ... | ...  | ... | ... |
+| faith  | sick :( | ...  | ... | ... |
 | 2  |   |   |   |   |
 | 3  |   |   |   |   |
